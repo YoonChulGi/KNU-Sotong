@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text="제 목 :"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/n_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:text=" " />
+        >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/n_contents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="본 문" />
+
+    <TextView
+        android:id="@+id/n_author"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="글쓴이 :" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/n_fix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/shape"
+            android:text="수 정"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/n_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:text="삭 제"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:hint="비밀번호"
+            android:visibility="invisible"
+            android:id="@+id/pw"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="완료"
+            android:visibility="invisible"
+            android:id="@+id/complete"
+            android:background="@drawable/shape"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

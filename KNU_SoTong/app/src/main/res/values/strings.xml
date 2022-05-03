@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">KNU_SoTong</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="planet_prompt">단과대</string>
+    <string name="major_prompt">학과</string>
+
+    <string-array name="planets_array">
+        <item>인문대</item>
+        <item>공과대</item>
+        <item>예체대</item>
+    </string-array>
+
+    <string-array name="major_array1">
+        <item>문헌정보학과(미구현)</item>
+        <item>국문학과(미구현)</item>
+        <item>중어중문학과</item>
+    </string-array>
+    <string-array name="major_array2">
+        <item>컴미공</item>
+        <item>도시공(미구현)</item>
+        <item>산시공(미구현)</item>
+    </string-array>
+
+    <string-array name="major_array3">
+        <item>음악학과(미구현)</item>
+        <item>사체과(미구현)</item>
+    </string-array>
+
+</resources>
